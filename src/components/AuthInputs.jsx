@@ -13,6 +13,7 @@ const ControlContainer = styled.div`
 export default function AuthInputs() {
   const [enteredEmail, setEnteredEmail] = useState("");
   const [enteredPassword, setEnteredPassword] = useState("");
+
   const [submitted, setSubmitted] = useState(false);
 
   function handleInputChange(identifier, value) {
